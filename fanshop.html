@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://use.typekit.net/crx6dgf.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./dist/css/style.css" />
+
+    <script defer src="./dist/js/main.js"></script>
+    <script defer src="./dist/js/cookie-consent-config.js"></script>
+    <script defer src="./dist/js/cookie-consent.js"></script>
+    <script
+      defer
+      src="./dist/js/cookie-consent-social.js"
+      type="text/plain"
+      data-cookiecategory="social"
+    ></script>
+
+    <title>Fanshop | Atletika Senica</title>
+  </head>
+  <body>
+    <header class="sticky top-0 z-50 bg-white">
+      <div
+        class="container relative flex h-[80px] items-center justify-between py-3"
+      >
+        <a href="index.html" class="w-14 lg:w-20">
+          <img
+            class="h-auto w-full transition-transform hover:scale-105"
+            src="./dist/img/logo.png"
+            alt=""
+          />
+        </a>
+        <nav class="menu-container">
+          <ul class="lg:flex lg:gap-4">
+            <li class="menu-item group">
+              <a href="#" class="menu-link">Link Dropdown</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-menu-item">
+                  <a class="dropdown-menu-link" href="#">Dropdown link 1</a>
+                </li>
+                <li class="dropdown-menu-item">
+                  <a class="dropdown-menu-link" href="#">Dropdown link 2</a>
+                </li>
+                <li class="dropdown-menu-item">
+                  <a class="dropdown-menu-link" href="#">Dropdown link 2</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="menu-item group">
+              <a href="#" class="menu-link">Link 0</a>
+            </li>
+
+            <li class="menu-item group">
+              <a href="#" class="menu-link">Link 1</a>
+            </li>
+
+            <li class="menu-item group">
+              <a href="#" class="menu-link">Link 2</a>
+            </li>
+
+            <li class="menu-item group">
+              <a href="#" class="menu-link">Link 3</a>
+            </li>
+
+            <li class="menu-item group">
+              <a href="#" class="menu-link">Link 4</a>
+            </li>
+          </ul>
+        </nav>
+        <a
+          href="#"
+          class="btn hidden whitespace-nowrap lg:flex lg:items-center lg:gap-2"
+        >
+          <img
+            class="mb-1 aspect-square w-4 object-contain"
+            src="./dist/img/key.png"
+            width="16"
+            height="16"
+            alt=""
+          />
+          Členská sekce
+        </a>
+
+        <button class="burger-menu" type="button" aria-expanded="false">
+          <span class="sr-only">Menu</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            class="burger-menu-icon burger-menu-open"
+            viewBox="0 0 448 512"
+          >
+            <path
+              d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            class="burger-menu-icon burger-menu-close"
+            viewBox="0 0 320 512"
+          >
+            <path
+              d="M207.6 256l107.72-107.72c6.23-6.23 6.23-16.34 0-22.58l-25.03-25.03c-6.23-6.23-16.34-6.23-22.58 0L160 208.4 52.28 100.68c-6.23-6.23-16.34-6.23-22.58 0L4.68 125.7c-6.23 6.23-6.23 16.34 0 22.58L112.4 256 4.68 363.72c-6.23 6.23-6.23 16.34 0 22.58l25.03 25.03c6.23 6.23 16.34 6.23 22.58 0L160 303.6l107.72 107.72c6.23 6.23 16.34 6.23 22.58 0l25.03-25.03c6.23-6.23 6.23-16.34 0-22.58L207.6 256z"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <script src="./dist/js/menu.js" async></script>
+
+    <main class="container mb-10 mt-4 lg:mb-14 lg:mt-8">
+      <h1 class="mb-4 text-3xl lg:mb-6 lg:text-4xl">Fanshop</h1>
+      <p class="mb-8 font-inter">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+        repudiandae autem exercitationem odio quos nostrum temporibus facilis
+        veniam atque quisquam eaque deleniti repellendus, maiores pariatur.
+        Consequatur corrupti natus voluptatibus amet. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Architecto repudiandae autem
+        exercitationem odio quos nostrum temporibus facilis veniam atque
+        quisquam eaque deleniti repellendus, maiores pariatur. Consequatur
+        corrupti natus voluptatibus amet.
+      </p>
+      <ul
+        class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+      >
+        <li class="rounded-md border border-primary/25 p-6 shadow-md">
+          <img
+            class="mb-6 aspect-square w-full rounded-md object-cover"
+            src="https://picsum.photos/279"
+            width="279"
+            height="279"
+            alt=""
+          />
+          <h3 class="mb-2 text-xl font-bold">Bílé tričko</h3>
+          <p class="font-inter">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repudiandae, dolores officia est neque reiciendis accusamus
+            voluptatibus, velit dolorum tempora fuga nemo porro. Consequuntur
+            saepe beatae magnam provident, quaerat molestias. Quas?
+          </p>
+        </li>
+
+        <li class="rounded-md border border-primary/25 p-6 shadow-md">
+          <img
+            class="mb-6 aspect-square w-full rounded-md object-cover"
+            src="https://picsum.photos/279"
+            width="279"
+            height="279"
+            alt=""
+          />
+          <h3 class="mb-2 text-xl font-bold">Bílé tričko</h3>
+          <p class="font-inter">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repudiandae, dolores officia est neque reiciendis accusamus
+            voluptatibus, velit dolorum tempora fuga nemo porro. Consequuntur
+            saepe beatae magnam provident, quaerat molestias. Quas?
+          </p>
+        </li>
+
+        <li class="rounded-md border border-primary/25 p-6 shadow-md">
+          <img
+            class="mb-6 aspect-square w-full rounded-md object-cover"
+            src="https://picsum.photos/279"
+            width="279"
+            height="279"
+            alt=""
+          />
+          <h3 class="mb-2 text-xl font-bold">Bílé tričko</h3>
+          <p class="font-inter">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repudiandae, dolores officia est neque reiciendis accusamus
+            voluptatibus, velit dolorum tempora fuga nemo porro. Consequuntur
+            saepe beatae magnam provident, quaerat molestias. Quas?
+          </p>
+        </li>
+
+        <li class="rounded-md border border-primary/25 p-6 shadow-md">
+          <img
+            class="mb-6 aspect-square w-full rounded-md object-cover"
+            src="https://picsum.photos/279"
+            width="279"
+            height="279"
+            alt=""
+          />
+          <h3 class="mb-2 text-xl font-bold">Bílé tričko</h3>
+          <p class="font-inter">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repudiandae, dolores officia est neque reiciendis accusamus
+            voluptatibus, velit dolorum tempora fuga nemo porro. Consequuntur
+            saepe beatae magnam provident, quaerat molestias. Quas?
+          </p>
+        </li>
+
+        <li class="rounded-md border border-primary/25 p-6 shadow-md">
+          <img
+            class="mb-6 aspect-square w-full rounded-md object-cover"
+            src="https://picsum.photos/279"
+            width="279"
+            height="279"
+            alt=""
+          />
+          <h3 class="mb-2 text-xl font-bold">Bílé tričko</h3>
+          <p class="font-inter">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repudiandae, dolores officia est neque reiciendis accusamus
+            voluptatibus, velit dolorum tempora fuga nemo porro. Consequuntur
+            saepe beatae magnam provident, quaerat molestias. Quas?
+          </p>
+        </li>
+
+        <li class="rounded-md border border-primary/25 p-6 shadow-md">
+          <img
+            class="mb-6 aspect-square w-full rounded-md object-cover"
+            src="https://picsum.photos/279"
+            width="279"
+            height="279"
+            alt=""
+          />
+          <h3 class="mb-2 text-xl font-bold">Bílé tričko</h3>
+          <p class="font-inter">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repudiandae, dolores officia est neque reiciendis accusamus
+            voluptatibus, velit dolorum tempora fuga nemo porro. Consequuntur
+            saepe beatae magnam provident, quaerat molestias. Quas?
+          </p>
+        </li>
+
+        <li class="rounded-md border border-primary/25 p-6 shadow-md">
+          <img
+            class="mb-6 aspect-square w-full rounded-md object-cover"
+            src="https://picsum.photos/279"
+            width="279"
+            height="279"
+            alt=""
+          />
+          <h3 class="mb-2 text-xl font-bold">Bílé tričko</h3>
+          <p class="font-inter">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repudiandae, dolores officia est neque reiciendis accusamus
+            voluptatibus, velit dolorum tempora fuga nemo porro. Consequuntur
+            saepe beatae magnam provident, quaerat molestias. Quas?
+          </p>
+        </li>
+
+        <li class="rounded-md border border-primary/25 p-6 shadow-md">
+          <img
+            class="mb-6 aspect-square w-full rounded-md object-cover"
+            src="https://picsum.photos/279"
+            width="279"
+            height="279"
+            alt=""
+          />
+          <h3 class="mb-2 text-xl font-bold">Bílé tričko</h3>
+          <p class="font-inter">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repudiandae, dolores officia est neque reiciendis accusamus
+            voluptatibus, velit dolorum tempora fuga nemo porro. Consequuntur
+            saepe beatae magnam provident, quaerat molestias. Quas?
+          </p>
+        </li>
+
+        <li class="rounded-md border border-primary/25 p-6 shadow-md">
+          <img
+            class="mb-6 aspect-square w-full rounded-md object-cover"
+            src="https://picsum.photos/279"
+            width="279"
+            height="279"
+            alt=""
+          />
+          <h3 class="mb-2 text-xl font-bold">Bílé tričko</h3>
+          <p class="font-inter">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repudiandae, dolores officia est neque reiciendis accusamus
+            voluptatibus, velit dolorum tempora fuga nemo porro. Consequuntur
+            saepe beatae magnam provident, quaerat molestias. Quas?
+          </p>
+        </li>
+
+        <li class="rounded-md border border-primary/25 p-6 shadow-md">
+          <img
+            class="mb-6 aspect-square w-full rounded-md object-cover"
+            src="https://picsum.photos/279"
+            width="279"
+            height="279"
+            alt=""
+          />
+          <h3 class="mb-2 text-xl font-bold">Bílé tričko</h3>
+          <p class="font-inter">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repudiandae, dolores officia est neque reiciendis accusamus
+            voluptatibus, velit dolorum tempora fuga nemo porro. Consequuntur
+            saepe beatae magnam provident, quaerat molestias. Quas?
+          </p>
+        </li>
+
+        <li class="rounded-md border border-primary/25 p-6 shadow-md">
+          <img
+            class="mb-6 aspect-square w-full rounded-md object-cover"
+            src="https://picsum.photos/279"
+            width="279"
+            height="279"
+            alt=""
+          />
+          <h3 class="mb-2 text-xl font-bold">Bílé tričko</h3>
+          <p class="font-inter">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repudiandae, dolores officia est neque reiciendis accusamus
+            voluptatibus, velit dolorum tempora fuga nemo porro. Consequuntur
+            saepe beatae magnam provident, quaerat molestias. Quas?
+          </p>
+        </li>
+
+        <li class="rounded-md border border-primary/25 p-6 shadow-md">
+          <img
+            class="mb-6 aspect-square w-full rounded-md object-cover"
+            src="https://picsum.photos/279"
+            width="279"
+            height="279"
+            alt=""
+          />
+          <h3 class="mb-2 text-xl font-bold">Bílé tričko</h3>
+          <p class="font-inter">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repudiandae, dolores officia est neque reiciendis accusamus
+            voluptatibus, velit dolorum tempora fuga nemo porro. Consequuntur
+            saepe beatae magnam provident, quaerat molestias. Quas?
+          </p>
+        </li>
+
+        <li class="rounded-md border border-primary/25 p-6 shadow-md">
+          <img
+            class="mb-6 aspect-square w-full rounded-md object-cover"
+            src="https://picsum.photos/279"
+            width="279"
+            height="279"
+            alt=""
+          />
+          <h3 class="mb-2 text-xl font-bold">Bílé tričko</h3>
+          <p class="font-inter">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repudiandae, dolores officia est neque reiciendis accusamus
+            voluptatibus, velit dolorum tempora fuga nemo porro. Consequuntur
+            saepe beatae magnam provident, quaerat molestias. Quas?
+          </p>
+        </li>
+
+        <li class="rounded-md border border-primary/25 p-6 shadow-md">
+          <img
+            class="mb-6 aspect-square w-full rounded-md object-cover"
+            src="https://picsum.photos/279"
+            width="279"
+            height="279"
+            alt=""
+          />
+          <h3 class="mb-2 text-xl font-bold">Bílé tričko</h3>
+          <p class="font-inter">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repudiandae, dolores officia est neque reiciendis accusamus
+            voluptatibus, velit dolorum tempora fuga nemo porro. Consequuntur
+            saepe beatae magnam provident, quaerat molestias. Quas?
+          </p>
+        </li>
+
+        <li class="rounded-md border border-primary/25 p-6 shadow-md">
+          <img
+            class="mb-6 aspect-square w-full rounded-md object-cover"
+            src="https://picsum.photos/279"
+            width="279"
+            height="279"
+            alt=""
+          />
+          <h3 class="mb-2 text-xl font-bold">Bílé tričko</h3>
+          <p class="font-inter">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repudiandae, dolores officia est neque reiciendis accusamus
+            voluptatibus, velit dolorum tempora fuga nemo porro. Consequuntur
+            saepe beatae magnam provident, quaerat molestias. Quas?
+          </p>
+        </li>
+      </ul>
+    </main>
+
+    <section
+      class="border-y border-dashed border-primary/25"
+      aria-label="Partneři"
+    >
+      <div class="container py-10 lg:py-14">
+        <ul class="partners-slider">
+          <li>
+            <a href="#" target="_blank">
+              <img
+                class="aspect-[3/2] w-full object-contain"
+                src="https://placehold.co/190x127"
+                width="190"
+                height="127"
+                alt=""
+              />
+            </a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <img
+                class="aspect-[3/2] w-full object-contain"
+                src="https://placehold.co/190x127"
+                width="190"
+                height="127"
+                alt=""
+              />
+            </a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <img
+                class="aspect-[3/2] w-full object-contain"
+                src="https://placehold.co/190x127"
+                width="190"
+                height="127"
+                alt=""
+              />
+            </a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <img
+                class="aspect-[3/2] w-full object-contain"
+                src="https://placehold.co/190x127"
+                width="190"
+                height="127"
+                alt=""
+              />
+            </a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <img
+                class="aspect-[3/2] w-full object-contain"
+                src="https://placehold.co/190x127"
+                width="190"
+                height="127"
+                alt=""
+              />
+            </a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <img
+                class="aspect-[3/2] w-full object-contain"
+                src="https://placehold.co/190x127"
+                width="190"
+                height="127"
+                alt=""
+              />
+            </a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <img
+                class="aspect-[3/2] w-full object-contain"
+                src="https://placehold.co/190x127"
+                width="190"
+                height="127"
+                alt=""
+              />
+            </a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <img
+                class="aspect-[3/2] w-full object-contain"
+                src="https://placehold.co/190x127"
+                width="190"
+                height="127"
+                alt=""
+              />
+            </a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <img
+                class="aspect-[3/2] w-full object-contain"
+                src="https://placehold.co/190x127"
+                width="190"
+                height="127"
+                alt=""
+              />
+            </a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <img
+                class="aspect-[3/2] w-full object-contain"
+                src="https://placehold.co/190x127"
+                width="190"
+                height="127"
+                alt=""
+              />
+            </a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <img
+                class="aspect-[3/2] w-full object-contain"
+                src="https://placehold.co/190x127"
+                width="190"
+                height="127"
+                alt=""
+              />
+            </a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <img
+                class="aspect-[3/2] w-full object-contain"
+                src="https://placehold.co/190x127"
+                width="190"
+                height="127"
+                alt=""
+              />
+            </a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <img
+                class="aspect-[3/2] w-full object-contain"
+                src="https://placehold.co/190x127"
+                width="190"
+                height="127"
+                alt=""
+              />
+            </a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <img
+                class="aspect-[3/2] w-full object-contain"
+                src="https://placehold.co/190x127"
+                width="190"
+                height="127"
+                alt=""
+              />
+            </a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <img
+                class="aspect-[3/2] w-full object-contain"
+                src="https://placehold.co/190x127"
+                width="190"
+                height="127"
+                alt=""
+              />
+            </a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <img
+                class="aspect-[3/2] w-full object-contain"
+                src="https://placehold.co/190x127"
+                width="190"
+                height="127"
+                alt=""
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <script src="./dist/js/slider.js" async></script>
+    <footer
+      class="container my-10 flex flex-wrap items-center justify-between gap-6 lg:my-14"
+    >
+      <p class="text-sm">
+        &copy; 2023 Všechna práva vyhrazena, Atletika Senica,
+        <a
+          class="hover:underline"
+          href="https://esportsmedia.cz/"
+          target="_blank"
+          >eSportsmedia.cz</a
+        >
+      </p>
+      <a href="#" class="text-sm hover:underline"
+        >Informace o autorských právech</a
+      >
+    </footer>
+  </body>
+</html>
